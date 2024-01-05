@@ -1,0 +1,76 @@
+/* header */
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 50px;
+}
+header{
+    background-color: #fff;
+}
+.left-right {
+    display: flex;
+    justify-content: space-between;
+}
+.left span{
+    color: #FF42A5;
+}
+.left-right .left img {
+    margin-top: 20px;
+}
+.nav-right .right {
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.right h3 {
+margin: 20px 10px;
+}
+.indiv {
+    display: flex;
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 10px;
+}
+.indiv img {
+    margin: 0px 7px;
+}
+element.style {
+    margin: 20px 30px;
+}
+
+/* .banner .left{
+    display: flex;
+    flex-direction: column;
+} */
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-indiv {
+    color: #0B0223;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;  
+}
+/* .left h1{
+}
+.left h3{
+} */
+.left .click{
+    display: flex;
+}
+.left .download{
+    display: flex;
+}
+.left .online{
+    display: flex;
+}
+.left .button pink{
+    background-color: #FF42A5;
+}
+.left .button blue{
+    background-color: blue;
+}
+/* .banner .right{} */
