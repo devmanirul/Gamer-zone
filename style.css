@@ -1,10 +1,13 @@
 /* header */
-body{
+body {
     font-family: 'Work Sans', sans-serif;
-    margin: 50px;
+    margin: 80px;
 }
 header{
     background-color: #fff;
+}
+.left{
+    display: flex;    
 }
 .left-right {
     display: flex;
@@ -36,15 +39,14 @@ margin: 20px 10px;
 element.style {
     margin: 20px 30px;
 }
-
-/* .banner .left{
-    display: flex;
-    flex-direction: column;
-} */
 .banner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.banner .right {
+    width: 476px;
+    height: 436px;
 }
 .left-indiv {
     color: #0B0223;
@@ -54,10 +56,22 @@ element.style {
     line-height: normal;
     text-transform: uppercase;  
 }
-/* .left h1{
+.left h1{
 }
-.left h3{
-} */
+.left-indiv .goat {
+    background: linear-gradient(179deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    font-size: xxx-large;
+    line-height: normal;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.left-indiv p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 10px 0px;
+}
 .left .click{
     display: flex;
 }
@@ -67,10 +81,28 @@ element.style {
 .left .online{
     display: flex;
 }
-.left .button pink{
-    background-color: #FF42A5;
+.left-indiv .button {
+    display: flex;
 }
-.left .button blue{
-    background-color: blue;
+.button .pink{
+        background-color: #FF42A5;
+        text-align: center;
+        border-radius: 20px 20px;
+        border: none;
+        color: white;
+        padding: 13px 40px;
 }
-/* .banner .right{} */
+.button .blue{
+    background-color: #4EC5F7;
+    color: white;
+    border-radius: 20px 20px;
+    padding: 13px 40px;
+    border: none;
+}
+.gamer{}
+.gamer-left{}
+.gamer-right{}
+.gamer-right .gamer-h1{}
+.gamer-right .gamer-p{}
+.gamer-right .knowmore{}
+.gamer-right .purpose{}
