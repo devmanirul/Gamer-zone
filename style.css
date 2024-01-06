@@ -153,3 +153,49 @@ element.style {
     font-weight: 700;
     line-height: 20px;
 }
+.online{}
+.online-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.online-top h1
+.online-top span{}
+.online-top p{}
+.online-buttom{
+    display: flex;
+    flex-direction: column;
+}
+.online-buttom .card-1{
+    background-image: url(./images/Rectangle\ 4.png);
+    height: 400px;
+    width: 342px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.online-buttom .card-2{
+    background-image: url(./images/Rectangle\ 5.png);
+    height: 400px;
+    width: 342px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.online-buttom .card-3{
+    background-image: url(./images/Rectangle\ 6.png);
+    height: 400px;
+    width: 342px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.online-buttom .card-4{
+    background-image: url(./images/Rectangle\ 7.png);
+    height: 400px;
+    width: 342px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
