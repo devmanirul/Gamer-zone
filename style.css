@@ -43,6 +43,7 @@ element.style {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 50px;
 }
 .banner .right {
     width: 476px;
@@ -55,8 +56,6 @@ element.style {
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;  
-}
-.left h1{
 }
 .left-indiv .goat {
     background: linear-gradient(179deg, #F948B2 0%, #8758F1 100%);
@@ -99,10 +98,58 @@ element.style {
     padding: 13px 40px;
     border: none;
 }
-.gamer{}
-.gamer-left{}
-.gamer-right{}
-.gamer-right .gamer-h1{}
-.gamer-right .gamer-p{}
-.gamer-right .knowmore{}
-.gamer-right .purpose{}
+.gamer {
+     display: flex;
+    align-items: center;
+}
+.gamer-left{
+    width: 100%;
+}
+.gamer-left .gamer-img{
+    width: 90%;
+}
+.gamer-right{
+    width: 95%;
+    text-align: right;
+
+}
+.gamer-right .gamer-h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700px;
+}
+.gamer-right .gamer-p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #534C64;
+    line-height: 30px;
+}
+.gamer-right .knowmore {
+    background-color: #FF42A5;
+    border: none;
+    color: white;
+    padding: 13px 86px;
+    border-radius: 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+.gamer-right .purpose{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.gamer-right .unless{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
