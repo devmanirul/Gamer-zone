@@ -324,35 +324,101 @@ element.style {
 .profile{
     display: flex;
     padding-top: 100px;
+    flex-direction: column;
 
+}
+.onefive{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.sixnine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .profile-1{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight: 600px;
+
 }
 .profile-2{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight:600px
+
 }
 .profile-3{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight:600px
 }
 .profile-4{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight:600px
 }
 .profile-5{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight:600px
+
 }
 .profile-6{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight:600px
+
 }
 .profile-7{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight:600px
+
 }
 .profile-8{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight:600px
+
 }
 .profile-9{
     display: flex;
+    gap: 10px;
+    font-size: 15px;
+    color: #0B0223;
+    margin: 10px;
+    font-weight:600px
+
 }
+
 .footer{
     display: flex;
     flex-direction: column;
