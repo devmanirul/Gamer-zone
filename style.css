@@ -6,8 +6,14 @@ body {
 header{
     background-color: #fff;
 }
-.left{
-    display: flex;    
+.left {
+    display: flex;
+    gap: 20px;
+}
+.gamer {
+    display: flex;
+    align-items: center;
+    padding-bottom: 45px;
 }
 .left-right {
     display: flex;
@@ -17,7 +23,7 @@ header{
     color: #FF42A5;
 }
 .left-right .left img {
-    margin-top: 20px;
+    margin-bottom: 50px;
 }
 .nav-right .right {
     display: flex;
@@ -65,43 +71,45 @@ element.style {
     -webkit-text-fill-color: transparent;
     margin: 0;
 }
+.banner .left .left-indiv h1{
+
+}
 .left-indiv p{
     color: #534C64;
     font-size: 20px;
     font-weight: 500px;
     margin: 10px 0px;
 }
-.left .click{
+.left .click {
     display: flex;
+    gap: 10px;
 }
-.left .download{
+.left .download {
     display: flex;
+    gap: 10px;
 }
-.left .online{
+.left .online {
     display: flex;
+    gap: 10px;
 }
 .left-indiv .button {
     display: flex;
+    gap: 20px;
 }
-.button .pink{
-        background-color: #FF42A5;
-        text-align: center;
-        border-radius: 20px 20px;
-        border: none;
-        color: white;
-        padding: 13px 40px;
+.button .pink {
+    background-color: #FF42A5;
+    text-align: center;
+    border-radius: 25px 25px;
+    border: none;
+    color: white;
+    padding: 18px 50px;
 }
-.button .blue{
+.button .blue {
     background-color: #4EC5F7;
     color: white;
-    border-radius: 20px 20px;
-    padding: 13px 40px;
+    border-radius: 25px 25px;
+    padding: 18px 51px;
     border: none;
-}
-.gamer {
-     display: flex;
-    align-items: center;
-    padding-top: 50px;
 }
 .gamer-left{
     width: 100%;
@@ -153,19 +161,21 @@ element.style {
     font-weight: 700;
     line-height: 20px;
 }
-.online{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.online {
+    padding-top: 3px;
+    padding-bottom: 18px;
 }
-.online-top{
+.online-top {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #0B0223
-    font-size: 24px;
+    padding-bottom: 35px;
+    line-height: 5px;
 }
-.online-top h1
+.online-top h1{
+
+}
 .online-top span{}
 .online-top p{}
 .online-buttom{
@@ -216,14 +226,24 @@ element.style {
     display: flex;
     flex-direction: row;
  }
-.recktiguler{
-    position: absolute;
-    padding-bottom: -40px;
-
-}
 .play .play-left{}
-.play .play-left .play-instantly {}
-.play .play-left p{}
+.play-instantly {
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: right;
+    padding: 60px 83px 0px 60px;
+}
+.play-instantly span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.downloding {
+    font-size: 13px;
+    padding: 5px 83px 18px 86px;
+    text-align: right;
+}
 .play-right{
     position: relative;
 }
@@ -429,17 +449,37 @@ element.style {
     color: #fff;
     margin: 50px 0px;
 }
+.footer-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-top h3 {
+    padding-top: 40px;
+}
 .footer .p-tags {
     display: flex;
+    font-size: 16px;
+    font-weight: 600;
     flex-direction: row;
     gap: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 26px;
 }
 .footer .images {
- }
- .footer .five-p{
+    display: flex;
+    gap: 40px;
+}
+.footer .five-p {
     display: flex;
     flex-direction: row;
     gap: 40px;
     margin: 30px 0px;
- }
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer .last-p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 17px;
+    font-weight: 500;
+}
