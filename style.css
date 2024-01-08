@@ -350,10 +350,10 @@ element.style {
 }
 
 .anywhere .games-right h1 {
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 700;
-    line-height: 58px;
-    margin: 0px;
+    line-height: 60px;
+    margin: 6px;
 }
 
 .anywhere .games-right h1 span {
@@ -380,9 +380,8 @@ element.style {
     width: 100%;
     gap: 20px;
     background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
-    padding: 35px 100px 0px 0px;
+    padding: 35px 100px 40px 0px;
 }
-
 .careers-left {
     width: 50%;
     padding: 0px 100px;
@@ -395,9 +394,10 @@ element.style {
     color: #fff;
 }
 
-.careers-left p {
+.careers-left .driven{
+    padding: 0px 9px;
     font-size: 10px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 20px;
     color: #fff;
 }
@@ -412,13 +412,14 @@ element.style {
 
 .careers-left .biodata .biodata-right {}
 
-.careers-left .button {
+.careers-left .button .see-all{
     background-color: #fff;
     color: #ff42A5;
     display: inline-block;
     font-size: 30px;
     border-radius: 40px;
     width: 100px;
+    padding: 3px 24px;
 }
 
 .careers-right {
