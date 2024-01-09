@@ -334,8 +334,8 @@ element.style {
 
 .anywhere .games-left .two {
     position: absolute;
-    left: 425px;
-    bottom: -72px;
+    left: 450px;
+    bottom: -80px;
     height: 214px;
     width: 192px;
     border-radius: 10px;
@@ -437,10 +437,9 @@ element.style {
 }
 
 .profile {
-    display: flex;
-    padding-top: 100px;
     flex-direction: column;
-
+    display: flex;
+    padding: 50px 0px;
 }
 
 .onefive {
@@ -566,7 +565,7 @@ element.style {
     padding: 50px 0px;
     background-color: #0B0223;
     color: #fff;
-    margin: 50px 0px;
+    padding: 50px 0px;
 }
 
 .footer-top {
