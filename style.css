@@ -2,6 +2,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
+    margin: 0px;
 }
 
 /* header section */
@@ -412,14 +413,14 @@ element.style {
 
 .careers-left .biodata .biodata-right {}
 
-.careers-left .button .see-all{
+.careers-left .button .see-all {
     background-color: #fff;
     color: #ff42A5;
     display: inline-block;
-    font-size: 30px;
+    font-size: 12px;
     border-radius: 40px;
     width: 100px;
-    padding: 3px 24px;
+    padding: 20px 25px;
 }
 
 .careers-right {
@@ -431,7 +432,9 @@ element.style {
 }
 
 /* group section */
-.group {}
+.Group {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
 
 .profile {
     display: flex;
@@ -461,7 +464,8 @@ element.style {
     color: #0B0223;
     margin: 10px;
     font-weight: 600px;
-
+    background-color: #fff;
+    border-radius: 45px;
 }
 
 .profile-2 {
@@ -470,16 +474,21 @@ element.style {
     font-size: 15px;
     color: #0B0223;
     margin: 10px;
-    font-weight: 600px
+    font-weight: 600px;
+    background-color: #fff;
+    border-radius: 45px;
 }
 
 .profile-3 {
     display: flex;
     gap: 10px;
     font-size: 15px;
-    color: #0B0223;
+    color: #FF42A5;
     margin: 10px;
-    font-weight: 600px
+    font-weight: 600px;
+    background-color: #fff;
+    border-radius: 45px;
+    border: 1px solid #FF42A5;
 }
 
 .profile-4 {
@@ -488,7 +497,9 @@ element.style {
     font-size: 15px;
     color: #0B0223;
     margin: 10px;
-    font-weight: 600px
+    font-weight: 600px;
+    background-color: #fff;
+    border-radius: 45px;
 }
 
 .profile-5 {
@@ -497,7 +508,9 @@ element.style {
     font-size: 15px;
     color: #0B0223;
     margin: 10px;
-    font-weight: 600px
+    font-weight: 600px;
+    background-color: #fff;
+    border-radius: 45px;
 }
 
 .profile-6 {
@@ -506,7 +519,9 @@ element.style {
     font-size: 15px;
     color: #0B0223;
     margin: 10px;
-    font-weight: 600px
+    font-weight: 600px;
+    background-color: #fff;
+    border-radius: 45px;
 }
 
 .profile-7 {
@@ -515,7 +530,9 @@ element.style {
     font-size: 15px;
     color: #0B0223;
     margin: 10px;
-    font-weight: 600px
+    font-weight: 600px;
+    background-color: #fff;
+    border-radius: 45px;
 }
 
 .profile-8 {
@@ -524,7 +541,9 @@ element.style {
     font-size: 15px;
     color: #0B0223;
     margin: 10px;
-    font-weight: 600px
+    font-weight: 600px;
+    background-color: #fff;
+    border-radius: 45px;
 }
 
 .profile-9 {
@@ -533,7 +552,9 @@ element.style {
     font-size: 15px;
     color: #0B0223;
     margin: 10px;
-    font-weight: 600px
+    font-weight: 600px;
+    background-color: #fff;
+    border-radius: 45px;
 }
 
 /* footer section */
