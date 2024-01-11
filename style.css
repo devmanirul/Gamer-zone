@@ -594,9 +594,79 @@ element.style {
     font-weight: 500;
 }
  /* Mobile view */
- /* @media screen (max-width: 768px){
+ @media screen and (max-width: 576px){
+    /* nav */
     .header .left-right{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
- } */
+    .header .nav-right .right{
+        display: flex;
+        flex-direction: column;        
+        justify-content: center;
+        align-items: center;
+    }
+    /* banner */
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* gamer */
+    .gamer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .online{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .online .online-buttom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* download-play */
+    .download-play{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* anywhere */
+    .anywhere{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* careers */
+    .careers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* group */
+    .Group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* footer */
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ }
