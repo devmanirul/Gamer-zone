@@ -615,6 +615,11 @@ element.style {
         justify-content: center;
         align-items: center;
     }
+    .banner .right{
+        display: flex;
+        justify-content: center;
+        align-items:  ;
+    }
     /* gamer */
     .gamer {
         display: flex;
@@ -647,6 +652,20 @@ element.style {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
+    }
+    .anywhere .games-left{
+       
+    }
+    .anywhere .games-left .one {
+        
+    }
+    .anywhere .games-left .two {
+        position: absolute;
+        left: 30px;
+    }
+    .anywhere .games-right h1{
+        padding: 65px 0px;
     }
     /* careers */
     .careers{
@@ -661,6 +680,10 @@ element.style {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .Group .profile{
+        display: grid;
+        grid-template-columns: repeat(3 1fr);
     }
     /* footer */
     .footer{
