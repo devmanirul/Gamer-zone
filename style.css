@@ -620,18 +620,26 @@ element.style {
         justify-content: center;
         align-items:  ;
     }
+    .banner .right img{
+        width: 50%;
+    }
     /* gamer */
     .gamer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
     }
     .online{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
+    }
+    .online-top{
+        line-height: 15px;
     }
     .online .online-buttom{
         display: flex;
@@ -645,6 +653,13 @@ element.style {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
+    }
+    .download-play .play-instantly{
+        padding: 10px;
+    }
+    .download-play .downloading{
+        padding: 10px;
     }
     /* anywhere */
     .anywhere{
