@@ -661,6 +661,12 @@ element.style {
     .download-play .downloading{
         padding: 10px;
     }
+    .download-play .download-right{
+        width: 100%;
+    }
+    .download-play .download-right 55png{
+        width: 50%;
+    } 
     /* anywhere */
     .anywhere{
         display: flex;
