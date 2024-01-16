@@ -261,9 +261,23 @@ element.style {
 
 /* play section */
 .download-play {
+    display: flex;
     padding: 35px 100px 0px 100px;
+    position: relative;
 }
+.download-play .download-left .play-instantly {}
+.download-play .play-instantly h1{}
+.download-play .play-instantly span{}
+.download-play .play-instantly .downloding{}
 
+.download-play .download-right{
+    position: absolute;
+    left:-50px;
+    bottom:150px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
 .play {
     display: flex;
     flex-direction: row;
@@ -315,12 +329,12 @@ element.style {
 }
 
 .anywhere .games-left .one {
-    width: 100%;
+    width: 90%;
 }
 
 .anywhere .games-left .two {
     position: absolute;
-    left: 450px;
+    left: 420px;
     bottom: -80px;
     height: 214px;
     width: 192px;
@@ -333,8 +347,7 @@ element.style {
     justify-content: center;
     align-items: center;
     width: 50%;
-    padding: 0px 25px 75px 100px;
-}
+ }
 
 .anywhere .games-right h1 {
     font-size: 46px;
